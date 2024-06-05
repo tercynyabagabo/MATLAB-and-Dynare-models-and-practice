@@ -33,7 +33,7 @@ parameters alpha beta lambda rho gamma;
 % model equations
 model;
 
-Y = alpha*Y(-1) + beta*r + epsilon_Y; % IS equation
+Y = alpha*Y(-1) - beta*r + epsilon_Y; % IS equation
 Pi = lambda*Pi(-1) + (1-lambda)*Pi + rho*Y + epsilon_Pi; % Phillips Curve
 r = gamma*r(-1) + (1-gamma)*(Pi - Pi_star) + epsilon_r; % Policy reaction function
 

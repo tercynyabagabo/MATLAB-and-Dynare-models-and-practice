@@ -1,3 +1,12 @@
+//Inflation Tolerance Ranges Model 
+   // Authors: MANAYUBAHWE & NYABAGABO 
+   // Type: NK-Type DSGE model 
+   // Package: Dynare
+   //Aim: This highly canonical DSGE model of the Rwandan economy is focused -
+   // on understanding the impact of monetary policy shocks, especially under different- 
+   // inflation targeting regimes that might have asymmetries in the policy response. 
+   // The model captures aggregate demand, inflation dynamics (NKPC), 
+   //and a specific monetary policy rule under regime switching.
 
 var 
     gdp 
